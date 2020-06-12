@@ -1,1 +1,3 @@
 # wifi_rssi_phonecall
+This is a project designed to identify any suspicious person at the place where they are not supposed to be for ex. detecting a thief inside house say near almirah or something. So, when they arrive at this place and if stay there for more than 5 seconds then a phone call is initiated to the owner stating someone's presence.
+It works on wifi signal strength or RSSI(Recieved Signal Stength Indicator) in which wifi router acts as a signal transmitter and Esp32 acts as a signal reciever and when the person is comes near to the reciever, signal strength varies and when it goes below certain set threshold, it initiates a phonecall and hence ensures safety.
